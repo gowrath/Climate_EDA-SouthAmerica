@@ -1,4 +1,4 @@
-## Project 2 Proposal
+## Climate Exploratory Data Analysis of Sao Paulo, Lima, and Santiago.
 
 #### Primary Dataset 
 
