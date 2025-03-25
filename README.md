@@ -49,8 +49,5 @@ oneyr_anom
 
 The specific question at hand is what statistical properties can we glean from the data as we do our exploratory data analysis. The time series data set has columns for monthly, annual, five-year, to twenty-year anomalies (fluctuations) and uncertainty, which is a plus/minus range of the anomaly. 
 
-We expect to find insights on the temperature—for annual anomalies to increase over the last 100 years. We will also study the uncertainty values over time, to see if the fluctuations themselves change. We will compare the three cities using South American data as a baseline. 
-
-A supplemental database we will use is a population dataset of the cities. We may look at the economical development over time for the country as a whole over time (per capita income) and map that to temperature data. We may able to draw a correlation between human activity and climate change. (Such a correlation may be noisy and have several confounding variables, but we are in the exploratory phase for now). 
 
 
