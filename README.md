@@ -5,7 +5,19 @@
 The primary dataset we intend to analyze is the Berkeley Earth dataset of global temperatures. We will analyze a subset of the data, focusing on temperatures in South American cities since 1900. We are choosing cities instead of countries because of the granularity of the data; in addition, cities may act as ‘heat islands’ where dense concentrations of pavement and buildings exacerbate heat waves. We are analyzing Lima, Santiago, and Sao Paulo.
 Data structure
 
-#### Initial Observations, Exploratory Variables, and Supplement Datasets
+#### Conclusions
+
+We see evidence to suggest a consistently increasing temperature over time for all three South American countries.
+
+<img width="685" alt="Screenshot 2025-03-24 at 6 34 17 PM" src="https://github.com/user-attachments/assets/c767c4fa-c1d3-427e-afce-bf5939e4e993" />
+
+Across the datasets, we observe Pearson correlation coefficients ranging from 0.57 to 0.71, indicating a consistent moderate to strong linear relationship between increasing population and increasing temperatures.
+
+<img width="995" alt="Screenshot 2025-03-24 at 6 35 00 PM" src="https://github.com/user-attachments/assets/ca407718-44e6-4494-b007-30cf8b9cd739" />
+
+
+
+#### Dataset Observations
 
 There are 1980 observations and 12 columns.
 
@@ -41,13 +53,4 @@ We expect to find insights on the temperature—for annual anomalies to increase
 
 A supplemental database we will use is a population dataset of the cities. We may look at the economical development over time for the country as a whole over time (per capita income) and map that to temperature data. We may able to draw a correlation between human activity and climate change. (Such a correlation may be noisy and have several confounding variables, but we are in the exploratory phase for now). 
 
-#### Final Report
-
-We want to explore a series of questions on climate data in South American cities:
-Which cities have higher temperatures over time?
-Do the temperature trends correlate to population trends?
-Is there a particular season where the anomaly and uncertainty increased or decreased faster than others?
-To address seasonality, we should compare each season throughout each year, seeing if that follows the overall trend
-Are we seeing hotter summers and/or colder winters?
-Can we discern large natural events or natural phenomena in the data, such as the pandemic? 
 
