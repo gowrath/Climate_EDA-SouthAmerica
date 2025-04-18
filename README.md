@@ -1,4 +1,4 @@
-## Climate Exploratory Data Analysis of Sao Paulo, Lima, and Santiago.
+## Climate Data Analysis of Sao Paulo, Lima, and Santiago.
 
 #### Primary Dataset 
 
@@ -14,6 +14,10 @@ We see evidence to suggest a consistently increasing temperature over time for a
 Across the datasets, we observe Pearson correlation coefficients ranging from 0.57 to 0.71, indicating a consistent moderate to strong linear relationship between increasing population and increasing temperatures.
 
 <img width="995" alt="Screenshot 2025-03-24 at 6 35 00 PM" src="https://github.com/user-attachments/assets/ca407718-44e6-4494-b007-30cf8b9cd739" />
+
+Running the data through an ARIMA model in Pytorch, we forecast more than 1.5 degrees warming for Sao Paolo and Santiago, and close to 1.5 degrees warming for Lima.
+
+![image](https://github.com/user-attachments/assets/ae8878ba-8cea-4795-9841-cdb9233ec7c2)
 
 
 
@@ -47,7 +51,7 @@ oneyr_anom
 - “Uncertainties represent the 95% confidence interval for statistical noise and spatial undersampling effects. Such uncertainties are expected to account for the effects of random  noise as well as random biases affecting station trends and random shifts in station baselines.”
 - Shown as plus-minus on the yearly anomaly
 
-The specific question at hand is what statistical properties can we glean from the data as we do our exploratory data analysis. The time series data set has columns for monthly, annual, five-year, to twenty-year anomalies (fluctuations) and uncertainty, which is a plus/minus range of the anomaly. 
+The time series data set has columns for monthly, annual, five-year, to twenty-year anomalies (fluctuations) and uncertainty, which is a plus/minus range of the anomaly. 
 
 
 
